@@ -1,5 +1,6 @@
 require "spec_helper"
 require "chef/knife/vsphere_vm_find"
+require 'ostruct'
 
 class Hash
   # An artifact of me using hashes to represent the VM -- the method needs to be there to mock
